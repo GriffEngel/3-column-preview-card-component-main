@@ -1,0 +1,42 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --paragraphs: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+#sedans,
+#suvs,
+#luxury {
+  display: grid;
+}
+
+.btn {
+  width: 250px;
+  height: 100px;
+  border-radius: 50px;
+  font-size: 30px;
+}
+p {
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  height: 1000px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
