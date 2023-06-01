@@ -4,6 +4,7 @@
   --very-dark-cyan: hsl(179, 100%, 13%);
   --paragraphs: hsla(0, 0%, 100%, 0.75);
   --very-light-gray: hsl(0, 0%, 95%);
+  --white: hsl(0, 0%, 100%);
 }
 
 html {
@@ -16,21 +17,77 @@ html {
   display: grid;
 }
 
+#sedans {
+  background-color: var(--bright-orange);
+}
+
+#suvs {
+  background-color: var(--dark-cyan);
+}
+
+#luxury {
+  background-color: var(--very-dark-cyan);
+}
+
+.container p {
+  color: var(--paragraphs);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 30px;
+  margin: 0 auto;
+  line-height: 4rem;
+  margin: 1rem 8rem;
+}
+
+h1 {
+  color: var(--very-light-gray);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 9rem;
+  margin-left: 8rem;
+}
+
 .btn {
   width: 250px;
   height: 100px;
   border-radius: 50px;
-  font-size: 30px;
+  font-size: 25px;
+  border: #fff solid;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+  margin-left: 6.5rem;
 }
-p {
-  font-size: 15px;
+
+#sedans .btn {
+  color: var(--bright-orange);
+}
+
+#suvs .btn {
+  color: var(--dark-cyan);
+}
+
+#luxury .btn {
+  color: var(--very-dark-cyan);
+}
+
+#sedans .btn:hover {
+  background-color: var(--bright-orange);
+  color: var(--white);
+}
+
+#suvs .btn:hover {
+  background-color: var(--dark-cyan);
+  color: var(--white);
+}
+
+#luxury .btn:hover {
+  background-color: var(--very-dark-cyan);
+  color: var(--white);
 }
 
 .container {
   display: flex;
   width: 75%;
   margin: auto;
-  height: 1000px;
+  height: 70rem;
 }
 
 .attribution {
