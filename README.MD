@@ -13,6 +13,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Continued Development](#continued-development)
+  - [Author](#author)
 
 ## Overview
 
@@ -48,3 +49,8 @@ Users should be able to:
 
 - Making use of more breakpoints to better accommodate for different devices
 - Writing more effecient styles
+
+## Author
+
+- Griffin Engel <https://github.com/CoreSNK>
+- LinkedIn <https://www.linkedin.com/feed/>
