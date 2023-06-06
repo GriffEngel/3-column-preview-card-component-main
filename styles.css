@@ -49,8 +49,8 @@ h1 {
 }
 
 .btn {
-  width: 300px;
-  height: 100px;
+  width: 10em;
+  height: 4em;
   border-radius: 50px;
   font-size: 25px;
   border: #fff solid;
@@ -88,7 +88,7 @@ h1 {
 }
 
 img {
-  width: 8rem;
+  width: 8em;
   margin-top: 5em;
   margin-left: 8em;
 }
@@ -109,16 +109,4 @@ img {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-@media screen and (max-width: 167.313rem) {
-  .attribution {
-    position: sticky;
-    bottom: 0;
-    visibility: hidden;
-  }
-
-  .container {
-    display: grid;
-  }
 }
