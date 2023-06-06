@@ -13,10 +13,10 @@ html {
   margin: 0;
 }
 
-#sedans,
-#suvs,
-#luxury {
+.columns {
   display: grid;
+  max-width: 45rem;
+  min-width: 34rem;
 }
 
 #sedans {
@@ -43,7 +43,7 @@ html {
 h1 {
   color: var(--very-light-gray);
   font-family: "Big Shoulders Display", cursive;
-  font-size: 9rem;
+  font-size: 9em;
   margin-left: 8rem;
   margin-bottom: 3rem;
 }
@@ -58,6 +58,7 @@ h1 {
   cursor: pointer;
   margin-left: 6.5rem;
   margin-bottom: 10rem;
+  margin-top: -4em;
 }
 
 #sedans .btn {
@@ -98,7 +99,6 @@ img {
   width: 75%;
   margin: auto;
   height: 70rem;
-  flex-direction: row;
 }
 
 .attribution {
@@ -109,4 +109,14 @@ img {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1024px) {
+  .container {
+    display: block;
+  }
+
+  .attribution {
+
+  }
 }
