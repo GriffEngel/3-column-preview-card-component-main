@@ -102,10 +102,23 @@ img {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 1rem;
   text-align: center;
+  margin-top: 1rem;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 167.313rem) {
+  .attribution {
+    position: sticky;
+    bottom: 0;
+    visibility: hidden;
+  }
+
+  .container {
+    display: grid;
+  }
 }
