@@ -26,7 +26,7 @@ Users should be able to:
 
 ## Screenshot
 
-![Screenshot (238)](https://github.com/CoreSNK/3-column-preview-card-component-main/assets/125166144/a62d8acc-ff68-43fb-9a29-441300589a67)
+![Screenshot (238) 2](https://github.com/CoreSNK/3-column-preview-card-component-main/assets/125166144/fee332f3-ddf5-46bb-80a2-d8a11caabbcb)
 
 
 ### Links
