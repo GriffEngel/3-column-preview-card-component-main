@@ -53,7 +53,7 @@ GitHub Pages link: https://coresnk.github.io/3-column-preview-card-component-mai
 ### Continued Development
 
 - Making use of more breakpoints to better accommodate for different devices
-- Writing more effecient styles
+- Writing more efficient styles
 
 ## Author
 
