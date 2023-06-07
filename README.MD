@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Links to come as soon as GitHub pages decides to work
+GitHub Pages link: https://coresnk.github.io/3-column-preview-card-component-main/
 
 ## My Process
 
