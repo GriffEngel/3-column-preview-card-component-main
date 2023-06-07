@@ -24,6 +24,11 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
+## Screenshot
+
+![Screenshot (238)](https://github.com/CoreSNK/3-column-preview-card-component-main/assets/125166144/a62d8acc-ff68-43fb-9a29-441300589a67)
+
+
 ### Links
 
 - Links to come as soon as GitHub pages decides to work
